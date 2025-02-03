@@ -15,10 +15,9 @@ jobs:
           submodules: recursive
           fetch-depth: 0
       - name: public branch
-          #git checkout main -- public
         run: |
           git checkout -b pages 
-          git add public
-          git commit -m "deploying page"
+          #git add public
+          #git commit -m "deploying page"
           git push origin pages
 
