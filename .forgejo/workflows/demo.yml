@@ -14,4 +14,8 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+      - name: public branch
+        run: |
+          git checkout pages
+          git restore --source main -- ./public/
 
