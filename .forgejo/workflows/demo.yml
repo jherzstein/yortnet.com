@@ -1,7 +1,16 @@
-on: [push]
+#on: [push]
+#jobs:
+#  test:
+#    runs-on: bookworm
+#    steps:
+#      - run: echo All Good
 jobs:
-  test:
+  publish:
     runs-on: bookworm
-    steps:
-      - run: echo All Good
+    setps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
 
