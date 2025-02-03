@@ -16,7 +16,7 @@ jobs:
           fetch-depth: 0
       - name: public branch
         run: |
-          git checkout -b pages 
+          git checkout pages 
           #git add public
           #git commit -m "deploying page"
           git push origin pages
