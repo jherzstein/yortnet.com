@@ -3,7 +3,6 @@
 #  test:
 #    runs-on: bookworm
 #    steps:
-#      - run: echo All Good
 on: [push]
 jobs:
   publish:
