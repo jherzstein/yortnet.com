@@ -1,7 +1,6 @@
 #on: [push]
 #jobs:
 #  test:
-#    runs-on: bookworm
 on: [push]
 jobs:
   publish:
