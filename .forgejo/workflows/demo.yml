@@ -16,6 +16,8 @@ jobs:
           fetch-depth: 0
       - name: public branch
         run: |
+          git config --global user.name "Jordan Herzstein"
+          git config --global user.email "git@jordanherzstein.com"
           git checkout --orphan pages 
           git rm -rf .
           git checkout main -- public
