@@ -18,4 +18,5 @@ jobs:
         run: |
           git checkout -b pages
           git restore --source main -- ./public/
+          git push origin pages
 
