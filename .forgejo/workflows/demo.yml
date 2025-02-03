@@ -16,7 +16,11 @@ jobs:
           fetch-depth: 0
       - name: public branch
         run: |
-          git checkout pages 
+          git checkout --orphan pages 
+          git rm -rf .
+          git checkout main -- public
+          mv public/* .
+          git rm -r public/
           git add .
           git commit -m "deploying page"
           git push origin pages
