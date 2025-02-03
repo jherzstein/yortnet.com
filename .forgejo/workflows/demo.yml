@@ -1,18 +1,21 @@
+# on push
 on: [push]
 jobs:
   publish:
     runs-on: bookworm
     steps:
+      # Checkout main branch
       - name: Checkout
         uses: actions/checkout@v4
         with:
           submodules: recursive
           fetch-depth: 0
+      # Checkout public directory to paged branch
       - name: public branch
         run: |
           git config --global user.name "Jordan Herzstein"
           git config --global user.email "git@jordanherzstein.com"
-          git checkout --orphan pages 
+          git checkout pages 
           git rm -rf .
           git checkout main -- public
           mv public/* .
