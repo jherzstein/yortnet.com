@@ -11,7 +11,7 @@ YortNet is created by myself ([[https://jordanherzstein.com][Jordan Herzstein]])
 - [[https://mozhi.yortnet.com][Mozhi]]: Frontend for various translation engines
 - [[https://bin.yortnet.com][PrivateBin]]: Pastebin alternative where the server has zero knowledge of pasted data
 - [[https://gothub.yortnet.com][GotHub]]: Alternative lightweight GitHub frontend
-- [[https://git.yortnet.com][Forgejo]]: An open source, self-hostable git server. 
+- [[https://git.yortnet.com][Forgejo]]: An open source, self-hostable git server
 More to come...
 
 ** Policies
