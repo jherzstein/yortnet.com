@@ -12,7 +12,7 @@ YortNet is created by myself ([[https://jordanherzstein.com][Jordan Herzstein]])
 - [[https://bin.yortnet.com][PrivateBin]]: Pastebin alternative where the server has zero knowledge of pasted data
 - [[https://gothub.yortnet.com][GotHub]]: Alternative lightweight GitHub frontend
 - [[https://git.yortnet.com][Forgejo]]: An open source, self-hostable git server
-More to come...
+More to come... 
 
 ** Policies
 By accessing services provided by yortnet.com you agree to the terms below.
