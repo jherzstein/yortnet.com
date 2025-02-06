@@ -6,6 +6,7 @@
 * Welcome to YortNet
 YortNet is created by myself ([[https://jordanherzstein.com][Jordan Herzstein]]) to host various services and privacy frontends at no cost for my own learning as well as the public good.
 ** Provided Services
+View the [[https://status.yortnet.com][status]] of my services at any time.
 - YortNet Minecraft Server: Private Minecraft server (invite only)
 - [[https://searx.yortnet.com][SearXNG]]: An open metasearch engine
 - [[https://mozhi.yortnet.com][Mozhi]]: Frontend for various translation engines

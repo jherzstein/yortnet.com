@@ -11,6 +11,8 @@ YortNet is created by myself ([Jordan Herzstein](https://jordanherzstein.com)) t
 
 ### Provided Services {#provided-services}
 
+View the [status](https://status.yortnet.com) of my services at any time.
+
 -   YortNet Minecraft Server: Private Minecraft server (invite only)
 -   [SearXNG](https://searx.yortnet.com): An open metasearch engine
 -   [Mozhi](https://mozhi.yortnet.com): Frontend for various translation engines
